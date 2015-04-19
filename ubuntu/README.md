@@ -1,0 +1,1 @@
+The original ubuntu .tar.gz file (ubuntu-trusty-core-cloudimg-amd64-root.tar.gz) was split into smaller files (ubuntu-trusty-tar.gz.part-aa , ubuntu-trusty-tar.gz.part-ab) to reduce transfer and storage size. Once the files are checked out, you restore the file with the command cat ubuntu* >> ubuntu-trusty-core-cloudimg-amd64-root.tar.gz .
